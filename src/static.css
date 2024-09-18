@@ -1,0 +1,131 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FCF8EC; /* Light beige background */
+    color: #456268;
+   
+    padding: 0;
+    margin: 0;
+}
+
+/* Container for central alignment */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #79A3B1;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header .logo {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto 0.5rem;
+}
+
+header h1 {
+    color: #9BABB8; /* Light blue-gray for main heading */
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #79A3B1;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9BABB8; /* Light blue-gray */
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #D0E8F2; /* Beige hover background */
+    color: #456268; /* Darker text on hover */
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 50px;
+    text-align: left;
+    color: #9BABB8; /* Light blue-gray for subheadings */
+    margin-bottom: 0rem;
+}
+
+main p {
+    font-size: 1rem;
+    margin-top: -1rem;
+    line-height: 1.1rem;
+    color: #967E76; /* General text color */
+}
+
+/* Sample Image in Main Content */
+.sample-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #FFFFFF;
+    border-top: 1px solid #D7C0AE;
+    padding: 1rem 0;
+    text-align: center;
+    color: #967E76; /* Footer text color */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Add some responsive styling */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
